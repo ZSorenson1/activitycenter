@@ -59,10 +59,11 @@ namespace activitycenter.Controllers
                 }
                 PasswordHasher<User> Hasher = new PasswordHasher<User>();
                 user.Password = Hasher.HashPassword(user, user.Password);
+                dbcontext.Users.Add(user);
+                dbcontext.SaveChanges();
+                return RedirectToAction("Index");
             }
-            dbcontext.Users.Add(user);
-            dbcontext.SaveChanges();
-            return RedirectToAction("Index");
+            return View("index");
         }
         [HttpPost("login")]
         public IActionResult Login(string Email, string Password)

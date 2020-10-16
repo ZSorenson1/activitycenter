@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zach\\desktop\\CodingDojo\\csharp\\activitycenter\\activitycenter.csproj": {}
+    "C:\\Users\\Zach\\Desktop\\CodingDojo\\csharp\\activitycenter\\activitycenter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zach\\desktop\\CodingDojo\\csharp\\activitycenter\\activitycenter.csproj": {
+    "C:\\Users\\Zach\\Desktop\\CodingDojo\\csharp\\activitycenter\\activitycenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zach\\desktop\\CodingDojo\\csharp\\activitycenter\\activitycenter.csproj",
+        "projectUniqueName": "C:\\Users\\Zach\\Desktop\\CodingDojo\\csharp\\activitycenter\\activitycenter.csproj",
         "projectName": "activitycenter",
-        "projectPath": "C:\\Users\\Zach\\desktop\\CodingDojo\\csharp\\activitycenter\\activitycenter.csproj",
+        "projectPath": "C:\\Users\\Zach\\Desktop\\CodingDojo\\csharp\\activitycenter\\activitycenter.csproj",
         "packagesPath": "C:\\Users\\Zach\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zach\\desktop\\CodingDojo\\csharp\\activitycenter\\obj\\",
+        "outputPath": "C:\\Users\\Zach\\Desktop\\CodingDojo\\csharp\\activitycenter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zach\\AppData\\Roaming\\NuGet\\NuGet.Config"
