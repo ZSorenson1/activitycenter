@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Activity";
+}
+@model AnActivity
+<div class="text-center">
+    <h1 class="display-4">@Model.Title</h1>
+    @foreach (UserActivity ua in ViewBag.User.Activities)
+    {
+        if(ua.AnActivityID == @Model.AnActivityId)
+        {
+            ViewBag.Valid = true;
+            break;
+        }
+    }
+    @if(ViewBag.Valid == false){
+    <a href="/@Model.AnActivityId/join">Join</a>
+    }
+    else{
+        <a href="/@Model.AnActivityId/leave">Leave</a>
+    }
+
+    <h2>Event Coordinator: @Model.Coordinator.Name</h2>
+    <h2>Description:</h2>
+    <h3>@Model.Desc</h3>
+    <h3>Participants</h3>
+    <ul>
+        @foreach (UserActivity u in @Model.Participants)
+        {
+            <li>@u.user.Name</li>
+        }
+    </ul>
+</table>
